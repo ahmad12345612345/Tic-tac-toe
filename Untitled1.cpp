@@ -23,9 +23,9 @@ int main()
 		cout<<"3"<<endl;
 		cout<<"5"<<endl;
 	}
-	for(int i=0;i<=number;i++){
+	for(int i=2;i<=number;i++){
 	
-		if((i%2!=0)&&(i%3!=0)&&(i%5!=0)){
+		if((i%2!=0)&&(i%3!=0)&&(i%5!=0)&&(i%7!=0) ){
 			cout<<i<<endl;
 		}
 		else{
